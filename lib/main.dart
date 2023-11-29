@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:myproject/screen/sign_up_screen.dart';
+import 'package:myproject/screen/dashboard_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,9 +11,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: signUpScreen(),
+      home: dashboardScreen(),
     );
   }
 }
